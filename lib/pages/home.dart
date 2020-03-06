@@ -20,9 +20,9 @@ class _HomeState extends State<Home> {
       body: SafeArea(
         child: Container(
           decoration: BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage('assets/$bgImage'),
-                fit: BoxFit.cover,
+            image: DecorationImage(
+              image: AssetImage('assets/$bgImage'),
+              fit: BoxFit.cover,
             )
           ),
           child: Padding(
@@ -58,9 +58,10 @@ class _HomeState extends State<Home> {
                     Text(
                       data['location'],
                       style: TextStyle(
-                          fontSize: 28.0,
-                          letterSpacing: 2.0,
-                          color: Colors.white),
+                        fontSize: 28.0,
+                        letterSpacing: 2.0,
+                        color: Colors.white
+                      ),
                     )
                   ],
                 ),
